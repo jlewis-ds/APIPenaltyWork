@@ -9,4 +9,8 @@
  
  gamePenaltyDf(loadGamePlaysOutput) - this takes the tuple of (json, home code, away code) and builds a dataframe containing only the penalties in the game, as well as several calculated columns to be used for further analysis.
  
+ winningTeamPenalty(dfrow) - take a row from the penalty df to determine if the penalty was on the winning team or not.
+ 
+ 
+ 
  ...
